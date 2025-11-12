@@ -23,7 +23,7 @@ const connectDB = async () => {
     const db = await mysql.createConnection({
       host: 'localhost',
       user: 'root',           // ← sesuaikan
-      password: '123',        // ← sesuaikan
+      password: 'ridhorzq',        // ← sesuaikan
       database: 'apikey_db'   // ← sesuaikan (harus sudah dibuat)
     });
     console.log('✅ Terhubung ke database MySQL');
